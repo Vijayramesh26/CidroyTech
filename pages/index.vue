@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <v-app>
 <CartEcommerce/>
     <NuxtPage />
-  </div>
+  </v-app>
 </template>
 <script>
 import CartEcommerce from "../../components/HomePage/main.vue";
