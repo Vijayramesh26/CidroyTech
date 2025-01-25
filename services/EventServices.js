@@ -1,11 +1,7 @@
 import axios from "axios";
 
 const baseApiClient = axios.create({
-    // baseURL: "http://novotestapi.flattrade.in:29091",
-    // baseURL: "https://novoapi.flattrade.in",
-    // baseURL: "http://localhost:29092",
     baseURL: "https://dummyjson.com",
-    // baseURL: "http://novouat2.flattrade.in:27011",
     withCredentials: false, //this is default
     headers: {
         Accept: "application/json",
