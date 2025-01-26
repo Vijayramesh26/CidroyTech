@@ -44,12 +44,12 @@ export default {
             products: [],
             loading: false,
             headers: [
-                { text: "ID", value: "id" },
-                { text: "Thumbnail", value: "thumbnail" },
-                { text: "Title", value: "title" },
-                { text: "Price", value: "price" },
-                { text: "Stock", value: "stock" },
-                { text: "Rating", value: "rating" },
+                { title: "ID", value: "id" },
+                { title: "Thumbnail", value: "thumbnail" },
+                { title: "Title", value: "title" },
+                { title: "Price", value: "price" },
+                { title: "Stock", value: "stock" },
+                { title: "Rating", value: "rating" },
             ],
         };
     },
